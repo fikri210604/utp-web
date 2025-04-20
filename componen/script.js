@@ -50,5 +50,5 @@ document.addEventListener("DOMContentLoaded", function() {
     setTimeout(() => {
       text.classList.remove('opacity-0', 'translate-y-10');
       text.classList.add('opacity-100', 'translate-y-0');
-    }, 300); // 300ms setelah halaman load
-  });
+    }, 500); 
+});
