@@ -1,95 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Schedule Section</title>
     <script src="/componen/script.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <div id="navbar"></div>
 
     <div class="bg-[#18054A] text-white min-h-screen flex flex-col items-center justify-center py-20">
-        <div class="container mx-auto px-6">
-            <div class="flex flex-col items-center">
-                <h1 class="text-5xl font-bold mb-4 text-center">🗓️ Welcome to My Schedule 🗓️</h1>
-                <p class="text-lg mb-8 text-center">Here you can find my schedule and availability.</p>
-                <div class="w-full overflow-x-auto shadow-xl rounded-xl p-4">
-                    <table class="w-full text-sm text-left text-gray-300 border border-gray-600 rounded-lg overflow-hidden">
-                        <thead class="bg-gray-700 text-white">
-                            <tr class="border-gray-600 hover:bg-gray-600 transition ">
-                                <th class="px-6 py-3 border-b border-r border-gray-600 ">Jam</th>
-                                <th class="px-6 py-3 border-b border-r border-gray-600 ">Senin</th>
-                                <th class="px-6 py-3 border-b border-r border-gray-600">Selasa</th>
-                                <th class="px-6 py-3 border-b border-r border-gray-600">Rabu</th>
-                                <th class="px-6 py-3 border-b border-r border-gray-600">Kamis</th>
-                                <th class="px-6 py-3 border-b border-r border-gray-600">Jumat</th>
-                            </tr>
-                        </thead>
-                        <tbody class="bg-blue-100 text-gray-700">
-                            <tr class="hover:bg-gray-100 transition">
-                                <td class="px-6 py-4 border-b border-r border-gray-300">07:30 - 09:00</td>
-                                <td class="px-6 py-4 border-b border-r border-gray-300">Matematika</td>
-                                <td class="px-6 py-4 border-b border-r border-gray-300">Bahasa Indonesia</td>
-                                <td class="px-6 py-4 border-b border-r border-gray-300">Bahasa Inggris</td>
-                                <td class="px-6 py-4 border-b border-r border-gray-300">Kimia</td>
-                                <td class="px-6 py-4 border-b border-r border-gray-300">Biologi</td>
-                            </tr>
-                            <tr class="hover:bg-gray-100 transition">
-                                <td class="px-6 py-4 border-b border-r border-gray-300">09:10 - 10:50</td>
-                                <td class="px-6 py-4 border-b border-r border-gray-300">Fisika</td>
-                                <td class="px-6 py-4 border-b border-r border-gray-300">Bahasa Indonesia</td>
-                                <td class="px-6 py-4 border-b border-r border-gray-300">Bahasa Inggris</td>
-                                <td class="px-6 py-4 border-b border-r border-gray-300">Kimia</td>
-                                <td class="px-6 py-4 border-b border-r border-gray-300">Biologi</td>
-                            </tr>
-                            <tr class="hover:bg-gray-100 transition">
-                                <td class="px-6 py-4 border-b border-r border-gray-300">10:50 - 12:40</td>
-                                <td class="px-6 py-4 border-b border-r border-gray-300">Fisika</td>
-                                <td class="px-6 py-4 border-b border-r border-gray-300">Bahasa Indonesia</td>
-                                <td class="px-6 py-4 border-b border-r border-gray-300">Bahasa Inggris</td>
-                                <td class="px-6 py-4 border-b border-r border-gray-300">Kimia</td>
-                                <td class="px-6 py-4 border-b border-r border-gray-300">Biologi</td>
-                            </tr>
-                            <tr class="hover:bg-gray-100 transition">
-                                <td class="px-6 py-4 border-b border-r border-gray-300">13:50 - 15:35</td>
-                                <td class="px-6 py-4 border-b border-r border-gray-300">Fisika</td>
-                                <td class="px-6 py-4 border-b border-r border-gray-300">Bahasa Indonesia</td>
-                                <td class="px-6 py-4 border-b border-r border-gray-300">Bahasa Inggris</td>
-                                <td class="px-6 py-4 border-b border-r border-gray-300">Kimia</td>
-                                <td class="px-6 py-4 border-b border-r border-gray-300">Biologi</td>
-                            </tr>
-                            <tr class="hover:bg-gray-100 transition">
-                                <td class="px-6 py-4 border-b border-r border-gray-300">15:35 - 17:30</td>
-                                <td class="px-6 py-4 border-b border-r border-gray-300">Fisika</td>
-                                <td class="px-6 py-4 border-b border-r border-gray-300">Bahasa Indonesia</td>
-                                <td class="px-6 py-4 border-b border-r border-gray-300">Bahasa Inggris</td>
-                                <td class="px-6 py-4 border-b border-r border-gray-300">Kimia</td>
-                                <td class="px-6 py-4 border-b border-r border-gray-300">Biologi</td>
-                            </tr>
-                            <tr class="hover:bg-yellow-100 transition">
-                                <td class="px-6 py-4 border-b border-r border-gray-300">13:00 - 14:00</td>
-                                <td class="px-6 py-4 border-b border-r border-gray-300">Fisika</td>
-                                <td class="px-6 py-4 border-b border-r border-gray-300">Bahasa Indonesia</td>
-                                <td class="px-6 py-4 border-b border-r border-gray-300">Bahasa Inggris</td>
-                                <td class="px-6 py-4 border-b border-r border-gray-300">Kimia</td>
-                                <td class="px-6 py-4 border-b border-r border-gray-300">Biologi</td>
-                            </tr>
-                        </tbody>
-                    </table>
+        <section>
+            <div class="container mx-auto px-6">
+                <div class="flex flex-col items-center">
+                    <h1 class="text-5xl font-bold mb-4 text-center">🗓️ Welcome to My Schedule 🗓️</h1>
+                    <p class="text-lg mb-8 text-center">Here you can find my schedule and availability.</p>
+                    <div class="w-full overflow-x-auto shadow-xl rounded-xl p-4">
+                        <table
+                            class="w-full text-sm text-left text-gray-300 border border-gray-600 rounded-lg overflow-hidden">
+                            <thead class="bg-gray-700 text-white">
+                                <tr class="border-gray-600 hover:bg-gray-600 transition ">
+                                    <th class="px-6 py-3 border-b border-r border-gray-600 ">Jam</th>
+                                    <th class="px-6 py-3 border-b border-r border-gray-600 ">Senin</th>
+                                    <th class="px-6 py-3 border-b border-r border-gray-600">Selasa</th>
+                                    <th class="px-6 py-3 border-b border-r border-gray-600">Rabu</th>
+                                    <th class="px-6 py-3 border-b border-r border-gray-600">Kamis</th>
+                                    <th class="px-6 py-3 border-b border-r border-gray-600">Jumat</th>
+                                </tr>
+                            </thead>
+                            <tbody class="bg-blue-100 text-gray-700">
+                                <tr class="hover:bg-gray-100 transition">
+                                    <td class="px-6 py-4 border-b border-r border-gray-300">07:30 - 09:00</td>
+                                    <td class="px-6 py-4 border-b border-r border-gray-300">Mapen</td>
+                                    <td class="px-6 py-4 border-b border-r border-gray-300">TI</td>
+                                    <td class="px-6 py-4 border-b border-r border-gray-300"></td>
+                                    <td class="px-6 py-4 border-b border-r border-gray-300"></td>
+                                    <td class="px-6 py-4 border-b border-r border-gray-300">PDT (Teori)</td>
+                                </tr>
+                                <tr class="hover:bg-gray-100 transition">
+                                    <td class="px-6 py-4 border-b border-r border-gray-300">09:10 - 10:50</td>
+                                    <td class="px-6 py-4 border-b border-r border-gray-300">TAM (Teori)</td>
+                                    <td class="px-6 py-4 border-b border-r border-gray-300">Adsi (Teori)</td>
+                                    <td class="px-6 py-4 border-b border-r border-gray-300"></td>
+                                    <td class="px-6 py-4 border-b border-r border-gray-300">ML (Teori)</td>
+                                    <td class="px-6 py-4 border-b border-r border-gray-300">ML (Responsi)</td>
+                                </tr>
+                                <tr class="hover:bg-gray-100 transition">
+                                    <td class="px-6 py-4 border-b border-r border-gray-300">10:50 - 12:40</td>
+                                    <td class="px-6 py-4 border-b border-r border-gray-300"></td>
+                                    <td class="px-6 py-4 border-b border-r border-gray-300">AI (Teori)</td>
+                                    <td class="px-6 py-4 border-b border-r border-gray-300"></td>
+                                    <td class="px-6 py-4 border-b border-r border-gray-300"></td>
+                                    <td class="px-6 py-4 border-b border-r border-gray-300"></td>
+                                </tr>
+                                <tr class="hover:bg-gray-100 transition">
+                                    <td class="px-6 py-4 border-b border-r border-gray-300">12:40 - 13:50</td>
+                                    <td class="px-6 py-4 border-b border-r border-gray-300">-</td>
+                                    <td class="px-6 py-4 border-b border-r border-gray-300">-</td>
+                                    <td class="px-6 py-4 border-b border-r border-gray-300">-</td>
+                                    <td class="px-6 py-4 border-b border-r border-gray-300">-</td>
+                                    <td class="px-6 py-4 border-b border-r border-gray-300">-</td>
+                                </tr>
+                                <tr class="hover:bg-gray-100 transition">
+                                    <td class="px-6 py-4 border-b border-r border-gray-300">13:50 - 15:35</td>
+                                    <td class="px-6 py-4 border-b border-r border-gray-300"></td>
+                                    <td class="px-6 py-4 border-b border-r border-gray-300">AI (Responsi)</td>
+                                    <td class="px-6 py-4 border-b border-r border-gray-300"></td>
+                                    <td class="px-6 py-4 border-b border-r border-gray-300">Adsi (Responsi)</td>
+                                    <td class="px-6 py-4 border-b border-r border-gray-300"></td>
+                                </tr>
+                                <tr class="hover:bg-yellow-100 transition">
+                                    <td class="px-6 py-4 border-b border-r border-gray-300">15:50 - 17:30</td>
+                                    <td class="px-6 py-4 border-b border-r border-gray-300">PDT (Responsi)</td>
+                                    <td class="px-6 py-4 border-b border-r border-gray-300">(Ngasdos)</td>
+                                    <td class="px-6 py-4 border-b border-r border-gray-300"></td>
+                                    <td class="px-6 py-4 border-b border-r border-gray-300">Web (Responsi)</td>
+                                    <td class="px-6 py-4 border-b border-r border-gray-300">Web (Teori)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     </div>
-    
+
     <!-- Footer Section -->
     <div id="footer"></div>
 
 </body>
 </html>
-
-
-
